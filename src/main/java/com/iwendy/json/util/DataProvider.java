@@ -12,7 +12,7 @@ public class DataProvider {
     		return doc3k;
     	}
     	 try {
-    		 final String location = "data/doc3000.json";
+    		 final String location = "data/doc10.json";
              Path resourcePath = Paths.get(location);
              doc3k = new String(Files.readAllBytes(resourcePath));
              return doc3k;
