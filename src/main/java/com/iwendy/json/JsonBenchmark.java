@@ -1,4 +1,4 @@
-package com.samsung.json;
+package com.iwendy.json;
 
 import java.io.StringReader;
 import java.util.concurrent.TimeUnit;
@@ -7,14 +7,14 @@ import org.openjdk.jmh.annotations.GenerateMicroBenchmark;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.logic.BlackHole;
 
-import com.samsung.json.reader.FastJsonReader;
-import com.samsung.json.reader.GSONReader;
-import com.samsung.json.reader.JacksonReader;
-import com.samsung.json.reader.JettisonReader;
-import com.samsung.json.reader.JsonSimpleReader;
-import com.samsung.json.reader.JsonSmartReader;
-import com.samsung.json.reader.OrgJsonReader;
-import com.samsung.json.util.DataProvider;
+import com.iwendy.json.reader.FastJsonReader;
+import com.iwendy.json.reader.GSONReader;
+import com.iwendy.json.reader.JacksonReader;
+import com.iwendy.json.reader.JettisonReader;
+import com.iwendy.json.reader.JsonSimpleReader;
+import com.iwendy.json.reader.JsonSmartReader;
+import com.iwendy.json.reader.OrgJsonReader;
+import com.iwendy.json.util.DataProvider;
 
 public class JsonBenchmark {
 	

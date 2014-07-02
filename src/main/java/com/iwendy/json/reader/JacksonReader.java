@@ -1,4 +1,4 @@
-package com.samsung.json.reader;
+package com.iwendy.json.reader;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.JsonNode;

@@ -1,4 +1,4 @@
-package com.samsung.json.reader;
+package com.iwendy.json.reader;
 
 import java.io.Reader;
 

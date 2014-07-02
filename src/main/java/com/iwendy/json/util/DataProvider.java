@@ -1,4 +1,4 @@
-package com.samsung.json.util;
+package com.iwendy.json.util;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
