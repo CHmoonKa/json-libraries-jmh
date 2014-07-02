@@ -1,4 +1,4 @@
-json libraries benchmark project with jmh
+json libraries benchmark with jmh
 ===========
 
 JMH examples with my own examples + jar etc.<br/>
@@ -7,3 +7,9 @@ http://psy-lob-saw.blogspot.com/2013/05/using-jmh-to-benchmark-multi-threaded.ht
 http://psy-lob-saw.blogspot.com/2013/04/writing-java-micro-benchmarks-with-jmh.html<br/>
 And contains the examples discussed under the psy.lob.saw package.<br/>
 The JMH framework is hosted here: http://openjdk.java.net/projects/code-tools/jmh/<br/>
+
+Run
+===========
+
+1. mvn clean package
+2. java -jar target/microbenchmarks.jar -wi 2 -i 3 ".*JsonBenchmark.*"
