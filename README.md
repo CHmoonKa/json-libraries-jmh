@@ -1,7 +1,8 @@
 json libraries benchmark with jmh
 ===========
 
-JMH examples with my own examples + jar etc.<br/>
+http://www.json.org/ lists various json libraries for different language <br/>
+
 This was setup to support my 2 blog posts about JMH:<br/>
 http://psy-lob-saw.blogspot.com/2013/05/using-jmh-to-benchmark-multi-threaded.html<br/>
 http://psy-lob-saw.blogspot.com/2013/04/writing-java-micro-benchmarks-with-jmh.html<br/>
