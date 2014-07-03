@@ -7,6 +7,7 @@ import org.openjdk.jmh.annotations.GenerateMicroBenchmark;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.logic.BlackHole;
 
+import com.alibaba.fastjson.JSONObject;
 import com.iwendy.json.reader.FastJsonReader;
 import com.iwendy.json.reader.GSONReader;
 import com.iwendy.json.reader.JacksonReader;
@@ -50,13 +51,13 @@ public class JsonBenchmark {
 	
 	@GenerateMicroBenchmark
     @OutputTimeUnit(TimeUnit.SECONDS)
-    public void FastJson(BlackHole bh) throws Exception {
-        bh.consume(FastJsonReader.parse(DataProvider.doc3k()));
+    public JSONObject FastJson() throws Exception {
+        return FastJsonReader.parse(DataProvider.doc3k());
     }
 	
 	@GenerateMicroBenchmark
     @OutputTimeUnit(TimeUnit.SECONDS)
-    public void OrgJson(BlackHole bh) throws Exception {
-        bh.consume(OrgJsonReader.parse(DataProvider.doc3k()));
+    public Object OrgJson() throws Exception {
+		return OrgJsonReader.parse(DataProvider.doc3k());
     }
 }
