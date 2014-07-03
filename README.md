@@ -18,11 +18,12 @@ Run
 
 Result sample
 ===========
-Benchmark                          Mode Thr    Cnt  Sec         Mean   Mean error    Units
-c.i.j.JsonBenchmark.FastJson      thrpt   1      3    5       81.911        1.624  ops/sec
-c.i.j.JsonBenchmark.GSON          thrpt   1      3    5       45.917        8.851  ops/sec
-c.i.j.JsonBenchmark.Jackson       thrpt   1      3    5       65.361        2.695  ops/sec
-c.i.j.JsonBenchmark.Jettison      thrpt   1      3    5       36.422        2.544  ops/sec
-c.i.j.JsonBenchmark.JsonSimple    thrpt   1      3    5       23.467        1.501  ops/sec
-c.i.j.JsonBenchmark.JsonSmart     thrpt   1      3    5       28.011        2.136  ops/sec
-c.i.j.JsonBenchmark.OrgJson       thrpt   1      3    5       21.278        0.650  ops/sec
+
+Benchmark                          Mode Thr    Cnt  Sec         Mean   Mean error    Units <br/>
+c.i.j.JsonBenchmark.FastJson      thrpt   1      3    5       81.911        1.624  ops/sec <br/>
+c.i.j.JsonBenchmark.GSON          thrpt   1      3    5       45.917        8.851  ops/sec <br/>
+c.i.j.JsonBenchmark.Jackson       thrpt   1      3    5       65.361        2.695  ops/sec <br/>
+c.i.j.JsonBenchmark.Jettison      thrpt   1      3    5       36.422        2.544  ops/sec <br/>
+c.i.j.JsonBenchmark.JsonSimple    thrpt   1      3    5       23.467        1.501  ops/sec <br/>
+c.i.j.JsonBenchmark.JsonSmart     thrpt   1      3    5       28.011        2.136  ops/sec <br/>
+c.i.j.JsonBenchmark.OrgJson       thrpt   1      3    5       21.278        0.650  ops/sec <br/>
