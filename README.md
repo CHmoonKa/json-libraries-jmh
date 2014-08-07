@@ -13,7 +13,7 @@ Run
 ===========
 
 1. mvn clean package
-2. java -jar target/microbenchmarks.jar -wi 2 -i 3 ".*JsonBenchmark.*"
+2. java -jar target/microbenchmarks.jar ".*JsonBenchmark.*"
  
 
 Result sample
